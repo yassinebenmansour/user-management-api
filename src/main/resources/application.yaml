@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: user-api
+  jackson:
+    serialization:
+      indent_output: true
+
+server:
+  port: 9090
+
+jwt:
+  secret: 571E635266556C586E3172357538782F413F4428472B4A6250645367566B5369
+  expiration: 86400000
